@@ -66,7 +66,7 @@ nav ul li a::after{
 }
 .row{
     display:flex;
-    justify-content:space-betweeb;
+    justify-content:space-between;
     flex-wrap:wrap;
 }
 .about-col-1{
