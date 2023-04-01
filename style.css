@@ -131,23 +131,23 @@ nav.fas{
 @media only screen and(max-width: 1080px){
     .header-text{
         margin-top: 100%;
-        font-size:16px;
+        font-size:16vw;
     }
     .header-text h1{
-        font-size:30px;
+        font-size:30vw;
     }
     nav.fas{
         display:block;
-        font-size:25px;
+        font-size:25vw;
     }
     nav ul{
         background:#f7ad3e;
         position:fixed;
         top:0;
-        right:-200px; 
-        width:200px;
+        right:-20vh; 
+        width:20vh;
         height:100vh;
-        padding-top: 50px;
+        padding-top: 50vh;
         z-index:2;
         transition:right 0.5s;
     }
@@ -157,8 +157,8 @@ nav.fas{
     }
     nav ul .fas{ 
         position:absolute;
-        top:25px;
-        left:25px;
+        top:25vw;
+        left:25vw;
         cursor:pointer;
     }
     .sub-title{
@@ -168,7 +168,7 @@ nav.fas{
         flex-basis:100%;
     }
     .about-col-1{
-        margin-bottom:30px;
+        margin-bottom:30vh;
     }
     .about-col-2{
         font-size:14px;
